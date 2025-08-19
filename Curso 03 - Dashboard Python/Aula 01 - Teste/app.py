@@ -2,7 +2,7 @@ import streamlit as st, pandas as pd, plotly.express as px
 
 st.set_page_config(page_title="App Streamlit via GitHub", layout="wide")
 st.title("🚀 App Streamlit publicado via GitHub/Streamlit Cloud")
-st.write("Edite `app.py` no Colab, depois **git add/commit/push** para atualizar.")
+st.write("Edit `app.py` no Colab, depois **git add/commit/push** para atualizar.")
 
 df = pd.DataFrame({
     "Operadora": list("ABCDEFGHIJ"),
